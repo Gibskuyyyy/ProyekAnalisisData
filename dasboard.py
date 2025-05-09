@@ -8,7 +8,7 @@ st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 st.title("🚲 Bike Sharing Dashboard")
 
 # Load data
-df = pd.read_csv('D:\Python_Dicoding\Projekakhir analisis data menggunakan python/hour.csv')
+df = pd.read_csv('D:\Python_Dicoding\Projekakhir_analisis_data_menggunakan_python/hour.csv')
 df['dteday'] = pd.to_datetime(df['dteday'])
 
 # Map season & weather
